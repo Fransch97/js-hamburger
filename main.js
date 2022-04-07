@@ -18,11 +18,17 @@ console.log(logo);
 
 logo.style.cssText = 'width:100%';
 
-const hamburgimenusososososo = document.querySelector('hamburger-menu');
-const hamburgiUl = document.querySelector('ul');
+const hamburgimenusososososo = document.querySelector('.hamburger-menu');
+const hamburgiUl = document.querySelector('.hamburger-menu');
 
 console.log(hamburgimenusososososo);
 console.log(hamburgiUl);
 
 //some tests
-hamburgiUl.style.cssText = 'display:block; position:absolute; top:10%';
+hamburgiUl.style.cssText = 'display:block;';
+
+// hamburgimenusososososo.addEventListener('click', function(){
+//     hamburgiUl.style.cssText = 'display:block; position:absolute; top:10%';
+// })
+
+
