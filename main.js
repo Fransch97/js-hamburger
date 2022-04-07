@@ -18,17 +18,21 @@ console.log(logo);
 
 logo.style.cssText = 'width:100%';
 
-const hamburgimenusososososo = document.querySelector('.hamburger-menu');
+const hamburgiMenuSososososo = document.querySelector('.fa-bars');
 const hamburgiUl = document.querySelector('.hamburger-menu');
-
-console.log(hamburgimenusososososo);
+const closeHamburgerini = document.querySelector('.fa-times')
+console.log(hamburgiMenuSososososo);
 console.log(hamburgiUl);
+console.log(closeHamburgerini);
 
 //some tests
-hamburgiUl.style.cssText = 'display:block;';
+// hamburgiUl.style.cssText = 'display:block;';
 
-// hamburgimenusososososo.addEventListener('click', function(){
-//     hamburgiUl.style.cssText = 'display:block; position:absolute; top:10%';
-// })
+hamburgiMenuSososososo.addEventListener('click', function(){
+    hamburgiUl.style.cssText = 'display:block;';
+})
 
-
+closeHamburgerini.addEventListener('click', function(){
+    hamburgiUl.style.cssText = 'display:none;'
+    
+})
