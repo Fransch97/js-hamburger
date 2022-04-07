@@ -34,5 +34,23 @@ hamburgiMenuSososososo.addEventListener('click', function(){
 
 closeHamburgerini.addEventListener('click', function(){
     hamburgiUl.style.cssText = 'display:none;'
+    const header = document.querySelector("header");
+    const body = document.querySelector('body')
+    console.log(header);
+    console.log(body);
+    const main = document.createElement("main");
+    const footer = document.createElement("footer");
+    header.after(main);
+    main.style.cssText = 'height: calc(95vh - 70px); background-color:red; background-image: url(https://vpcdn09.wondershare.com/assets/static/imgs/desc-1-3.gif);';
+    main.after(footer);
+    footer.style.cssText = 'height: 5vh; background-color:black;';
     
+    document.querySelector("main").innerHTML = ` <img src="https://vpcdn09.wondershare.com/assets/static/imgs/desc-1-3.gif" alt="">`;
+
+    const img = document.querySelector("main img");
+    console.log(img);
+
+    img.style.cssText = 'margin: auto ;'
+
 })
+
