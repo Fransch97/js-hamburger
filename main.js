@@ -17,3 +17,12 @@ const logo = document.querySelector('img');
 console.log(logo);
 
 logo.style.cssText = 'width:100%';
+
+const hamburgimenusososososo = document.querySelector('hamburger-menu');
+const hamburgiUl = document.querySelector('ul');
+
+console.log(hamburgimenusososososo);
+console.log(hamburgiUl);
+
+//some tests
+hamburgiUl.style.cssText = 'display:block; position:absolute; top:10%';
